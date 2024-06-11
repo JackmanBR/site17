@@ -22,15 +22,20 @@ try {
 </head>
 <body>
 <h1>Castle Siege</h1>
+<br>
+<h4 style=" margin-top: 20px;">List of Raid Bosses</h4>
+<br>
 
-<table width="95%" border="1" align="center" cellpadding="5" cellspacing="0">
+
+
+<table class="rank" width="95%" border="1" align="center" cellpadding="5" cellspacing="0">
   <tr>
-    <th>Nome do Castelo</th>
-    <th>Taxa</th>
-    <th>Data do Cerco</th>
-    <th>Dono</th>
-    <th>Ally</th>
-    <th>Líder</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Nome do Castelo</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Taxa</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Data do Cerco</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Dono</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Ally</th>
+    <th style="background-color: #64492b; color: #f3e7ce;margin:1px;border:1px solid #f3e7ce">Líder</th>
   </tr>
   <?php foreach ($castles as $castle): ?>
   <tr>
